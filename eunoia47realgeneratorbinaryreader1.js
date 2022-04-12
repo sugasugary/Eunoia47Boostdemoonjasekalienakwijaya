@@ -19,7 +19,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WI
- document).ready(function () {
+ $(document).ready(function () {
 	$('.toggle').click(function(){
 		$('.decimalToBinary').toggleClass('decimalToBinaryClose')
 		$('.convert').toggleClass('decimalToBinaryClose')
